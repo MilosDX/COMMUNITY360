@@ -1,0 +1,30 @@
+# Credenciales
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Dependencias
+node_modules/
+**/node_modules/
+
+# Compilaciones
+dist/
+build/
+coverage/
+.vite/
+
+# Temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Datos originales y archivos de auditoría con datos personales
+backend/data/originales/
+backend/data/procesados/
